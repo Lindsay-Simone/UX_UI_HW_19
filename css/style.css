@@ -1,0 +1,577 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*comment*/
+
+.navbar{
+  display: flex;
+  justify-content: left;
+  align-items: left;
+}
+
+.menu{
+  display: flex;
+  list-style: none;
+  margin: 20px 0px;
+}
+
+.menuitem{
+  color: white;
+  text-decoration: none;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 20px;
+  font-weight: 800;
+  font-family: 'Josefin Sans', sans-serif;
+  letter-spacing: 3px;
+  text-shadow: 2px 2px 5px black;
+}
+
+.mainheader{
+  background-image: url("../images/titlebackgroundfade.png");
+  background-color: white;
+  height: 1000px;
+  background-repeat: no-repeat;
+}
+
+.profile{
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  left: 800px;
+  top: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 50%;
+}
+
+.title{
+  padding-top: 200px;
+  color: #E5AE20;
+  text-align: center;
+  font-stretch: expanded;
+  height: 600px;
+  background-image: url("../images/lightlogo.png");
+  font-family: 'Josefin Sans', sans-serif;
+  background-repeat: no-repeat;
+  font-size: 52px;
+  background-size: contain;
+  background-position: center;
+}
+
+.title2{
+  padding-top: 30px;
+  color: #353737;
+  text-align: center;
+  font-size: 24px;
+}
+
+.title3{
+  padding-top: 30px;
+  color: #353737;
+  text-align: center;
+  font-size: 18px;
+}
+
+.title4{
+  padding-top: 30px;
+  color: #353737;
+  text-align: center;
+  font-size: 14px;
+}
+
+
+/*About Section*/
+
+.aboutsection{
+  color: #353737;
+  align-content: center;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.aboutsection h5{
+  color: #353737;
+  text-align: center;
+  font-weight: 600;
+  font-family: 'Josefin Sans', sans-serif;
+  letter-spacing: 3px;
+  font-size: 24px;
+  padding-bottom: 50px;
+  text-shadow: 2px 2px 5px rgb(155, 153, 153);
+}
+
+.aboutsection p{
+  color: #353737;
+  text-align: center;
+  font-weight: 600;
+  font-family: 'Josefin Sans', sans-serif;
+  line-height: 1.8;
+  font-size: 18px;
+  padding-bottom: 100px;
+}
+
+
+/*Project Section - see  bottom of CSS*/
+
+/*approach Section*/
+
+  .approachsection{
+  align-content: center;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.approachsection h5{
+  color: #353737;
+  text-align: center;
+  font-weight: 600;
+  font-family: 'Josefin Sans', sans-serif;
+  letter-spacing: 3px;
+  font-size: 24px;
+  padding-bottom: 50px;
+  text-shadow: 2px 2px 5px rgb(155, 153, 153);
+}
+
+.approachsection p{
+  color: #353737;
+  text-align: center;
+  font-weight: 600;
+  font-family: 'Josefin Sans', sans-serif;
+  line-height: 1.8;
+  font-size: 18px;
+  padding-bottom: 150px;
+}
+
+
+/*process Section*/
+
+.processsection{
+  align-content: center;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.processsection h5{
+  color: #353737;
+  text-align: center;
+  font-weight: 600;
+  font-family: 'Josefin Sans', sans-serif;
+  letter-spacing: 3px;
+  font-size: 24px;
+  padding-bottom: 50px;
+  text-shadow: 2px 2px 5px rgb(155, 153, 153);
+}
+
+.processsection p{
+  color: #353737;
+  text-align: center;
+  font-weight: 600;
+  font-family: 'Josefin Sans', sans-serif;
+  line-height: 1.8;
+  font-size: 18px;
+  padding-bottom: 100px;
+}
+
+.diamond {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  padding-bottom: 100px;
+  width: 600px;
+}
+
+/*skill Section using css grid*/
+
+.skillContainer{
+  display: grid;
+  padding-left: 150px;
+  padding-right: 150px;
+  color: #353737;
+  font-weight: 600;
+  font-family: 'Josefin Sans', sans-serif;
+  line-height: 1.8;
+  font-size: 18px;
+  padding-bottom: 150px;
+}
+
+.skillsections{
+  justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 700px;
+}
+
+.skillimg{
+  width: 200px;
+  height: 150px;
+}
+
+.skillContainer h3{
+  color: #353737;
+  padding-top: 20px;
+  font-weight: 600;
+  font-family: 'Josefin Sans', sans-serif;
+  letter-spacing: 3px;
+  font-size: 18px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  align-items: top;
+}
+
+.research, .development{
+  justify-self: center;
+  align-self: center;
+}
+
+.research ul, .development ul{
+  padding-left: 60px;
+}
+
+/* Toolbox Section using css grid*/
+
+.toolbox{
+  padding-bottom: 150px;
+}
+
+.tool h5{
+  color: #353737;
+  text-align: center;
+  font-weight: 600;
+  font-family: 'Josefin Sans', sans-serif;
+  letter-spacing: 3px;
+  font-size: 24px;
+  padding-bottom: 50px;
+  text-shadow: 2px 2px 5px rgb(155, 153, 153);
+}
+
+.toolboxGrid {
+  max-width: 100%;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 180px 180px 180px 180px 180px;
+  grid-template-rows: 180px 180px;
+  padding-bottom: 200px;
+  height: 400px;
+}
+
+.figma, .photoshop, .xd, .miro, .invision, .adobe, .google, .css, .html, .bootstrap{
+  align-self: center;
+  justify-self: center;
+}
+
+/* Footer Section */
+
+.hi{
+  color: white;
+  background-color: #172323;
+  width: 100%;
+  padding-top: 70px;
+  text-align: center;
+  font-weight: 600;
+  font-family: 'Josefin Sans', sans-serif;
+  letter-spacing: 3px;
+  font-size: 24px;
+  height: 100px;
+}
+  
+.footersection{
+  background-color: #172323;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+  
+.footercontainer{
+  max-width: 100%;
+  padding: 50px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+}
+  
+.dasimages{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 50%;
+}
+    
+.foot1{
+  flex: 1;
+  padding: 50px;
+  margin: 3px;
+}
+  
+.foot1 h3{
+  color: white;
+  padding-top: 50px;
+  text-align: center;
+  font-weight: 600;
+  font-family: 'Josefin Sans', sans-serif;
+  letter-spacing: 3px;
+  font-size: 18px;
+}
+  
+.foot2{
+  flex: 1;
+  padding: 50px;
+  margin: 3px;
+}
+  
+.foot2 h3{
+  color: white;
+  padding-top: 50px;
+  text-align: center;
+  font-weight: 600;
+  font-family: 'Josefin Sans', sans-serif;
+  letter-spacing: 3px;
+  font-size: 18px;
+}
+  
+.foot3{
+  flex: 1;
+  padding: 50px;
+  margin: 3px;
+}
+  
+.foot3 h3{
+  color: white;
+  padding-top: 50px;
+  text-align: center;
+  font-weight: 600;
+  font-family: 'Josefin Sans', sans-serif;
+  letter-spacing: 3px;
+  font-size: 18px;
+}
+  
+.foot4{
+  flex: 1;
+  padding: 50px;
+  margin: 3px;
+}
+  
+.foot4 h3{
+  color: white;
+  padding-top: 50px;
+  text-align: center;
+  font-weight: 600;
+  font-family: 'Josefin Sans', sans-serif;
+  letter-spacing: 3px;
+  font-size: 18px;
+}
+  
+.copy{
+  color: white;
+  background-color: #172323;
+  width: 100%;
+  text-align: center;
+  font-weight: 600;
+  font-family: 'Josefin Sans', sans-serif;
+  letter-spacing: 3px;
+  font-size: 14px;
+  height: 20px;
+}
+  
+.footimages{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 50%;
+}
+
+/* Projects using css grid*/
+
+h5{
+  color: #353737;
+  padding-top: 100px;
+  text-align: center;
+  font-weight: 600;
+  font-family: 'Josefin Sans', sans-serif;
+  letter-spacing: 3px;
+  font-size: 24px;
+  text-shadow: 2px 2px 5px rgb(155, 153, 153); 
+}
+
+.projectscontainer{
+  max-width: 100%;
+  display: flex;
+  padding: 50px;
+  box-sizing: border-box;
+  flex-direction: row;
+}
+
+.dasimages{
+  box-shadow: 0 4px 8px 0 rgba(201, 172, 172, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 50%;
+}
+  
+.internalcontainerDog{
+  flex: 1;
+  padding: 30px;
+  margin: 3px;
+}
+
+.internalcontainerDog h1{
+  color: #353737;
+  padding-top: 50px;
+  text-align: center;
+  font-weight: 600;
+  font-family: 'Josefin Sans', sans-serif;
+  letter-spacing: 3px;
+  font-size: 24px;
+}
+
+.internalcontainerDog p{
+  color: #353737;
+  text-align: center;
+  font-weight: 600;
+  font-family: 'Josefin Sans', sans-serif;
+  line-height: 1.8;
+  font-size: 18px;
+  padding-bottom: 100px;
+  padding-top: 50px;
+}
+  
+.internalcontainerBird{
+  flex: 1;
+  padding: 30px;
+  margin: 3px;
+}
+
+.internalcontainerBird h1{
+  color: #353737;
+  padding-top: 50px;
+  text-align: center;
+  font-weight: 600;
+  font-family: 'Josefin Sans', sans-serif;
+  letter-spacing: 3px;
+  font-size: 24px;
+}
+
+.internalcontainerBird p{
+  color: #353737;
+  text-align: center;
+  font-weight: 600;
+  font-family: 'Josefin Sans', sans-serif;
+  line-height: 1.8;
+  font-size: 18px;
+  padding-bottom: 100px;
+  padding-top: 50px;
+}
+
+.internalcontainerHealth{
+  flex: 1;
+  padding: 30px;
+  margin: 3px;
+}
+
+.internalcontainerHealth h1{
+  color: #353737;
+  padding-top: 50px;
+  text-align: center;
+  font-weight: 600;
+  font-family: 'Josefin Sans', sans-serif;
+  letter-spacing: 3px;
+  font-size: 24px;
+}
+
+.internalcontainerHealth p{
+  color: #353737;
+  text-align: center;
+  font-weight: 600;
+  font-family: 'Josefin Sans', sans-serif;
+  line-height: 1.8;
+  font-size: 18px;
+  padding-bottom: 100px;
+  padding-top: 50px;
+}
+  
+@media screen and (max-width: 600px){
+    .projectscontainer{
+      flex-direction: column-reverse;}
+
+    .footercontainer{
+      flex-direction: column-reverse;}
+
+    .toolboxGrid{
+      display: grid;
+      grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+      row-gap: 20px;
+      column-gap: 20px;
+      height: 1000px;}
+
+    .skillContainer {
+      height: 700px;
+      padding-left: 10px;
+      padding-right: 10px;
+      padding-bottom: 50px;
+    }
+
+    .research img{
+      width: 150px;
+      height: 100px;
+    }
+
+    .development img{
+      width: 150px;
+      height: 100px;
+    }
+
+    .processsection{
+      padding-left: 50px;
+      padding-right: 50px;}
+
+    .approachsection{
+      padding-left: 50px;
+      padding-right: 50px;}
+
+    .aboutsection{
+      padding-left: 50px;
+      padding-right: 50px;}
+
+    .title h1{
+      font-size: 45px;}
+
+    .title h2{
+      font-size: 24px;}
+
+    .title{
+      height: 600px;
+      background-repeat: no-repeat;
+      background-position: center;
+      justify-content: center;}
+
+    .profile{
+     display: none;}
+
+    .mainheader{
+      background-image: url("../images/titlebackgroundfade.png");
+      background-color: white;
+      height: 1000px;
+      background-repeat: no-repeat;}
+
+    .mainheader h3{
+      display: none;}
+
+    .diamond{
+      width: 350px;}
+
+    .footercontainer {
+      display: grid;
+      grid-template-rows: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+      row-gap: 20px;
+      column-gap: 20px;
+      height: 600px;
+      justify-content: center;}
+  
+    }
+  
+
+
